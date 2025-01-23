@@ -3,10 +3,12 @@ Please visit the official website to download the TUH EEG Corpus dataset (v1.5.2
 
 [Download TUH EEG Corpus v1.5.2](https://isip.piconepress.com/projects/nedc/html/tuh_eeg/)
 
+```
 E:\dataSet\TUSZ\v1.5.2
 │
 ├── _DOCS                 
 ├── edf                   
+```
 
 ## 2. Data Preparation
 Before running the model training, you need to prepare the data. To do this, run the `build_data.py` script located in the `data_preparation` folder. This script will process the data and prepare it for model training.
