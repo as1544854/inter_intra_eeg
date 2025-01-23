@@ -20,16 +20,17 @@ python build_data.py --base_dir <path_to_raw_dataset> --save_data_dir <path_to_s
 ```
 
 After running this script, the processed data will be saved as .pkl files. The files will be automatically grouped into folders based on seizure types. The resulting structure will look as follows:
+```
 D:\dataSet
 │
-├── ABSZ                  # Absence seizures
-├── CPSZ                  # Complex partial seizures
-├── FNSZ                  # Focal non-specific seizures
-├── GNSZ                  # Generalized non-specific seizures
-├── SPSZ                  # Simple partial seizures
-├── TCSZ                  # Tonic-clonic seizures
-├── TNSZ                  # Tonic seizures
-
+├── ABSZ                  
+├── CPSZ                 
+├── FNSZ                 
+├── GNSZ                  
+├── SPSZ                  
+├── TCSZ                 
+├── TNSZ             
+```
 
 ## Generate Normal EEG Data
 To obtain a dataset of normal EEG recordings, perform the following additional steps:
