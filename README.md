@@ -16,3 +16,16 @@ python tusz-cnn-gnn-train.py
 
 
 More code will be provided after the paper is published
+
+
+## Citation 🖊️
+
+If you find our work useful, please consider citing our paper:
+
+```
+@article{comprehensive_seizure_detection,
+  title = {Comprehensive Seizure Detection via Synchronized Inter- and Intra-Channel EEG Feature Fusion},
+  journal = {The Visual Computer},
+}
+
+```
